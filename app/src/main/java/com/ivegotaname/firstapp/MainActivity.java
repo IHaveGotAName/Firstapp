@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         int somecount = 255;
         somecount = somecount +1;
+        somecount = somecount - 1;
     }
 
 
